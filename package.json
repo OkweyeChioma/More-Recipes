@@ -1,0 +1,19 @@
+{
+  "name": "more-recipes",
+  "version": "1.0.0",
+  "description": "contains recipes",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OkweyeChioma/More-Recipes.git"
+  },
+  "author": "okweye chioma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OkweyeChioma/More-Recipes/issues"
+  },
+  "homepage": "https://github.com/OkweyeChioma/More-Recipes#readme"
+}

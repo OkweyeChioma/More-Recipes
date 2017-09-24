@@ -1,0 +1,57 @@
+.radio{
+  margin:5px;
+}
+
+.heading{
+  color:maroon;
+  position:relative;
+  right:170px;
+}
+h2{
+  text-align: center;
+}
+header{
+  background-color: rgb(240,248,255);
+  height:100px;
+  position: relative;
+  right:30px;
+}
+header p{
+  left:200px;
+  color:orange;
+
+}
+.container{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.col-lg-8{
+  padding-bottom: 20px
+}
+.card-text{
+  font-size: 20px;
+}
+
+.card{
+  padding: 10px;
+  margin:10px;
+}
+.form-group{
+  background-color: white;
+  padding: 20px;
+  position:relative;
+  top:5px;
+  left:800px;
+}
+body{
+  background-color:rgb(240,248,255);
+}
+#diffform{
+  position: relative;
+  left:50px;
+  padding:20px;
+
+}
+.nospc{
+  padding-top: 10px;
+}
