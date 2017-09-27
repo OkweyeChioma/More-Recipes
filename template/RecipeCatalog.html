@@ -13,10 +13,19 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <nav>
+      <ul class="list-inline">
+      <li><a href="./Recipe.html"> Add Recipe</a></li>
+      <li><a href="./SignIn.html"> Signin</a></li>
+      <li><a href="./SignUp.html">SignUp</a></li>
+  </ul>
+</div>
+    </nav>
     <div class ='container'>
+
       <header>
           <h1> Recipe Catalog</h1>
-          <p>Over 1000 recipes and growing.</p>
+          <p>Over 1000 recipes and counting</p>
         </header>
       <form>
         <div class="row">
@@ -25,10 +34,29 @@
              <span class="input-group-btn">
              <button class="btn btn-secondary" type="button">Search</button>
              </span>
-             <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+             <input type="text" class="form-control" placeholder="Search ..." aria-label="Search for...">
           </div>
-        </div> 
+        </div> <br>
       </form>
+      <div class ='row'>
+      <div class ="col">
+  
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Popular Recipes</button>
+  <div id="demo" class="collapse">
+    <div class ="card">
+      <ul class ="list-group list-group-flush">
+        <li id="Recipe1" class ='list-group-item'><a href="Recipe.html">Recipe 1</a></li>
+        <li id="Recipe2" class="list-group-item"><a href="Recipe.html">Recipe 2</a></li>
+        <li id="Recipe2" class="list-group-item"> <a href="Recipe.html">Recipe 3</a></li>
+        <li id="Recipe3" class="list-group-item"><a href="Recipe.html">Recipe 4</a></li>
+        <li id="Recipe3" class ="list-group-item"><a href="Recipe.html">Recipe 5</a></li>
+        <li id="Recipe4" class="list-group-item"> <a href="Recipe.html">Recipe 6</a></li>
+      </ul>
+    </div>
+</div>
+</div>
+</div>
+</div>
     <div class="row">
       <div class="col-sm-4">
         <div class="card">
@@ -39,7 +67,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
         <h4 class="card-title">Recipe 2</h4>
@@ -48,19 +76,8 @@
       </div>
     </div>
   </div>
-  <div class ="col">
-    <h4> Popular Recipes<h4>
-      <ul>
-        <li id="Recipe1"><a href="Recipe.html">Recipe 1</a></li>
-        <li id="Recipe2"><a href="Recipe.html">Recipe 2</a></li>
-        <li id="Recipe2"> <a href="Recipe.html">Recipe 3</a></li>
-        <li id="Recipe3"><a href="Recipe.html">Recipe 4</a></li>
-        <li id="Recipe3"><a href="Recipe.html">Recipe 5</a></li>
-        <li id="Recipe4"> <a href="Recipe.html">Recipe 6</a></li>
-      </ul>
-</div>
 <div class="row">
-  <div class="col">
+  <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h4 class="card-title">Recipe 3</h4>
