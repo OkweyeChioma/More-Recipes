@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--- This is the login page for registered  users-->
+<html lang="en">
+  <head>
+    <title>Sign IN</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href ='./style.css' type ='text/css' rel='stylesheet'>
+
+    </head>
+    <body>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+       <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">More-Recipes.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./addrecipe.html">Add Recipe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+  		<div class="container">
+        <header>
+          <h1> Welcome</h1>
+          <p>Sign up to add amazing recipes you have learnt or invented, downvote a not so great recipe you have tried and upvote your favorite to the board</p>
+        </header>
+  			<form>
+          <div class ="col-lg-4">
+            <div class="form-group"> 
+  				    <label for="firstname">Firstname</label>
+  				    <input type='text' class="form-control" placeholder ="Enter firstname" id='firstname'>
+  				    <label for="lastname">Lastname</label>
+  				    <input type ='text' class="form-control" placeholder="Enter lastname" id='lastname'>
+  				    <label for="email"> Email</label>
+  				    <input type='email' class="form-control" placeholder="Enter email" id='email'>
+  				    <label>Password</label>
+  				    <input type='password' class="form-control"  placeholder="Enter password" id='password'>
+              <small id='passwordHelp' class='form-text text-muted'>password must be a minimum of 8 characters</small>
+  				    <div class='radio'>
+  				    <label>Sex</label>	
+  				    <input type ='radio' name='sex' >Male
+  				    <input type ='radio' name='sex'>Female       
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn">Submit</button>
+              </div>
+
+           </div>
+           <p>Already registered then <a href="./SignIn.html"> Login</a></p>
+          </div> 
+
+  			</form>
+  		</div>
+  	</body>
+</html>
